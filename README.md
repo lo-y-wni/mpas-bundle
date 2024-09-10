@@ -44,7 +44,7 @@ _**For performance and memory reasons, it is recommended to compile ```mpas-bund
   Clone the `mpas-bundle` repository and navigate into the repository's root directory.
 
     ```bash
-    git clone https://github.com/JCSDA/mpas-bundle.git
+    git clone -b release/3.0.0 https://github.com/JCSDA/mpas-bundle.git
     cd mpas-bundle
     ```
 
@@ -99,7 +99,7 @@ _**Due to resource limitations, it's recommended to build and run tests on a com
 
 * Start an interactive session.
   ```bash
-  qsub -A <derecho_account> -N cc-mpas-bundle -q main -l walltime=03:00:00 -l select=1:ncpus=8 -I
+  qsub -A <derecho_account> -N cc-mpas-bundle -q main -l job_priority=premium -l walltime=03:00:00 -l select=1:ncpus=128 -I
   ```
 * Once the session starts, source the environment configuration script as you did in this [step](#env_script).
 * Enter the ```mpas-bundle``` build directory
@@ -107,9 +107,9 @@ _**Due to resource limitations, it's recommended to build and run tests on a com
    cd <mpas_bundle_build_dir>
    ```
   and start the build. Make sure to specify the number of cores ```GNU Make``` should use with the ```-j``` flag.
-  In the below command, ```mpas-bundle``` is compiled using 8 cores.
+  In the below command, ```mpas-bundle``` is compiled using 20 cores.
    ```bash
-   make -j8
+   make -j20
    ```
   and run ctest. You can execute ctest without any flags to run all available tests with default settings. 
   However, ctest supports numerous flags that allow you to customize the test execution. For a table of useful ```ctest```
