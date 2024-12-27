@@ -57,7 +57,7 @@ ecbuild_bundle( PROJECT crtm      GIT "https://github.com/lo-y-wni/CRTMv3.git"  
 
 option(ENABLE_IODA_DATA "Obtain ioda test data from ioda-data repository (vs tarball)" ON)
 ecbuild_bundle( PROJECT ioda-data GIT "https://github.com/JCSDA-internal/ioda-data.git"   TAG bcb0754 )
-ecbuild_bundle( PROJECT ioda      GIT "https://github.com/lo-y-wni/ioda.git"              TAG 865d0bb )
+ecbuild_bundle( PROJECT ioda      GIT "https://github.com/lo-y-wni/ioda.git"              TAG 6305595 )
 option(ENABLE_UFO_DATA "Obtain ufo test data from ufo-data repository (vs tarball)" ON)
 ecbuild_bundle( PROJECT ufo-data  GIT "https://github.com/JCSDA-internal/ufo-data.git"    TAG 9e4eb40 )
 ecbuild_bundle( PROJECT ufo       GIT "https://github.com/lo-y-wni/ufo.git"               TAG 4b559c0 )
