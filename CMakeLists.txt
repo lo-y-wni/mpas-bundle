@@ -50,7 +50,7 @@ ecbuild_bundle( PROJECT rttov     GIT "https://github.com/JCSDA-internal/rttov.g
 
 set(ENABLE_LORENZ95_MODEL "OFF" CACHE STRING "oops: Build LORENZ95 toy model")
 set(ENABLE_QG_MODEL "OFF" CACHE STRING "oops: Build QG toy model")
-ecbuild_bundle( PROJECT oops      GIT "https://github.com/lo-y-wni/oops.git"        TAG 866f77e )
+ecbuild_bundle( PROJECT oops      GIT "https://github.com/lo-y-wni/oops.git"        TAG 5a45698 )
 ecbuild_bundle( PROJECT vader     GIT "https://github.com/lo-y-wni/vader.git"       TAG 5620277 )
 ecbuild_bundle( PROJECT saber     GIT "https://github.com/lo-y-wni/saber.git"       TAG 1f3f307 )
 ecbuild_bundle( PROJECT crtm      GIT "https://github.com/lo-y-wni/CRTMv3.git"      TAG 61b90e8 )
