@@ -60,7 +60,7 @@ ecbuild_bundle( PROJECT ioda-data GIT "https://github.com/JCSDA-internal/ioda-da
 ecbuild_bundle( PROJECT ioda      GIT "https://github.com/lo-y-wni/ioda.git"              TAG acf833a )
 option(ENABLE_UFO_DATA "Obtain ufo test data from ufo-data repository (vs tarball)" ON)
 ecbuild_bundle( PROJECT ufo-data  GIT "https://github.com/JCSDA-internal/ufo-data.git"    TAG 9e4eb40 )
-ecbuild_bundle( PROJECT ufo       GIT "https://github.com/lo-y-wni/ufo.git"               TAG 4b559c0 )
+ecbuild_bundle( PROJECT ufo       GIT "https://github.com/lo-y-wni/ufo.git"               TAG 3ada7b6 )
 
 
 # Find external ESMF for mpas-model (optional)
