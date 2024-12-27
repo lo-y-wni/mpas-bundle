@@ -53,7 +53,7 @@ set(ENABLE_QG_MODEL "OFF" CACHE STRING "oops: Build QG toy model")
 ecbuild_bundle( PROJECT oops      GIT "https://github.com/lo-y-wni/oops.git"        TAG 35cf683 )
 ecbuild_bundle( PROJECT vader     GIT "https://github.com/lo-y-wni/vader.git"       TAG 5620277 )
 ecbuild_bundle( PROJECT saber     GIT "https://github.com/lo-y-wni/saber.git"       TAG 1f3f307 )
-ecbuild_bundle( PROJECT crtm      GIT "https://github.com/lo-y-wni/CRTMv3.git"      TAG 61b90e8 )
+ecbuild_bundle( PROJECT crtm      GIT "https://github.com/lo-y-wni/CRTMv3.git"      TAG 2817287 )
 
 option(ENABLE_IODA_DATA "Obtain ioda test data from ioda-data repository (vs tarball)" ON)
 ecbuild_bundle( PROJECT ioda-data GIT "https://github.com/JCSDA-internal/ioda-data.git"   TAG bcb0754 )
